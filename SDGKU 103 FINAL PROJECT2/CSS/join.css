@@ -1,0 +1,124 @@
+
+
+
+
+h1{
+    text-align: center;
+    font-size: 2.0rem;
+    font-style: oblique;
+    color: black;
+    text-shadow:2px 2px yellow;
+   
+    
+    
+}
+
+h2{
+  text-align: center;
+  font-style: oblique;
+}
+
+h4{
+  text-align: center;
+  text-decoration: underline;
+  font-size: x-large;
+}
+
+.icon{
+ display: flex;
+ justify-content: center;
+}
+
+.enlarge {
+  padding: 50px;
+  transition: transform .1s;
+ 
+  
+}
+
+.enlarge:hover {
+  transform: scale(1.5); 
+}
+
+/* this section is for my contact form (start) */  
+ 
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 6px; 
+    border: 3px solid  green ; 
+    border-radius: 2px; 
+    box-sizing: border-box; 
+    margin-top: 9px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+  /* Style of the submit button (before click) */
+  input[type=SUBSCRIBE] {
+    background-color:green;
+    color: white;
+    padding: 14px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor:progress;
+    text-align: center;
+  }
+  
+  /* changes the color of the submit button (after click) */
+  input[type=SUBSCRIBE]:hover {
+    background-color:yellowgreen;
+  }
+  
+  /* Adds background color and padding to contact form */
+  .container {
+    border-radius: 5px;
+    background-color:rgb(56, 46, 21);
+    padding: 15px;
+  }
+  /* contact form ends*/
+
+
+
+  nav-links,.ul,.li,.a{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+
+/*------------------------------------links (start)-------------------------------------------*/
+ 
+a {
+    color: rgb(244, 250, 245);
+    list-style: none;
+    font-size: 1.5rem;
+    
+    
+  }
+
+  a:visited {
+
+    color:black;
+  }
+
+  a:hover, a:active, a:focus {
+
+    color:yellowgreen;
+  }
+/*--------------------------------------links (end)---------------------------------------*/
+
+footer{
+    
+  background-image: url(../IMAGES/grass2.png);
+  background-repeat:repeat-x;
+  text-align: center ;
+
+
+    
+
+    
+    
+}
+
+

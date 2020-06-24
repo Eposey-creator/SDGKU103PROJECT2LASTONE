@@ -1,0 +1,159 @@
+.background{
+    background-color: black;
+}
+
+.h1{
+    text-align: center;
+    font-size: 1.0rem;
+    font-style: oblique;
+    color: black;
+    text-shadow:2px 2px yellow;
+    border: 0.5rem solid  green;
+    border-radius: 4rem;
+    padding:-35px;
+    margin-top: 20px;
+    
+    
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top:140px ;
+
+}
+.images{
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+p{
+    text-align: center;
+   
+   font-size: large;
+   font-style: oblique;
+   margin-bottom: auto;
+    
+}
+
+.enlarge {
+    padding: 50px;
+    transition: transform .2s;
+   
+    
+  }
+  
+  .enlarge:hover {
+    transform: scale(1.5); 
+  }
+
+
+ 
+.nav-links,.ul,.li,.a{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+
+/*------------------------------------links (start)-------------------------------------------*/
+ 
+a {
+    color: rgb(244, 250, 245);
+    list-style: none;
+    font-size: 1.5rem;
+    
+    
+  }
+
+  a:visited {
+
+    color:black;
+  }
+
+  a:hover, a:active, a:focus {
+
+    color:yellowgreen;
+  }
+/*--------------------------------------links (end)---------------------------------------*/
+.bio{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 0.4rem solid green;
+    border-radius: 4rem;
+    padding: 0.5px;
+    margin-top: 150px;
+}
+
+/*------------------------------responsive portion (starts)----------------------------------*/
+
+@media all and ( min-width:50px) and (max-width:700px){
+  .nav-links{
+  display: flex;
+  justify-content: center;
+  margin-left: -20px;
+  
+  margin-top:-10px ;
+  
+
+  }
+  .bio{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 0.4rem solid green;
+    border-radius: .5rem;
+    padding: 0.5px;
+    margin-top: 150px;
+}
+
+
+.h1{
+  text-align: center;
+  font-size: .5rem;
+  font-style: oblique;
+  color: black;
+  text-shadow:2px 2px yellow;
+  border: 0.2rem solid  green;
+  border-radius: 4rem;
+  padding:-35px;
+  margin-top: 20px;
+  
+  
+}
+.images{
+
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  
+}
+
+.enlarge {
+  padding: 50px;
+  transition: transform .25s;
+ 
+  
+}
+
+.enlarge:hover {
+  transform: scale(.5); 
+}
+
+
+@media (orientation:portrait)and (min-width:50px){
+  .nav-logo{
+      display: none;
+  }
+}
+}
+
+/*------------------------------responsive portion (ends)-------------------------------------*/

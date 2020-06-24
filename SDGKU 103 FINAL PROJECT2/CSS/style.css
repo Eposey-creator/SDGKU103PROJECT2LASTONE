@@ -1,0 +1,149 @@
+.background{
+    height: 100vh;
+    background-image:url(../IMAGES/water2.txt);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+ /*---------------------------------------------------------------------------------------*/
+.nav-bar{
+    display: flex;
+    padding: 40px 120px;
+}
+/*----------------------------------------------------------------------------------------*/
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+   
+  }
+  /*---------------------------------------------------------------------------------------*/
+
+.nav-links,.ul,.li,.a{
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+    font-size: larger;
+   
+  }
+
+/*------------------------------------links (start)-------------------------------------------*/
+ 
+a {
+    color: rgb(0, 2, 10);
+    list-style: none;
+    font-size: 1.5rem;
+    
+  }
+
+  a:visited {
+
+    color:black;
+  }
+
+  a:hover, a:active, a:focus {
+
+    color:yellowgreen;
+  }
+/*--------------------------------------links (end)---------------------------------------*/
+
+/*----------------------------------------button (start)--------------------------------------*/
+  .btn{
+      padding: 16px 12px;
+      border: none;
+      border-radius: 10%;
+      background-color: forestgreen;
+      display: inline-block;
+      color:white;
+      font-weight: bold;
+      font-size: 1rem;
+      margin-top: auto;
+      margin-bottom: auto;
+      cursor: pointer;
+      margin-left: 300px;
+      
+  }
+
+  /* changes the color of the Explore button (after click) */
+  .btn[type=button]:hover {
+    background-color:yellowgreen;
+  }
+  /*----------------------------------------buton (end)--------------------------------------*/
+  
+  /*-----------------------------------slogan (start)-------------------------------------*/
+.slogan{
+    height: 200px;
+    width: 400px;
+    background-color: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    color:black;
+    font-size: 5.5rem;
+    font-style: oblique;
+    text-align: center;
+}
+
+/*------------------------------------------solgan (end)--------------------------------------*/
+
+/*----------------span (changes colors of certain letters in slogan---------------------------*/
+ 
+span{
+    color: rgba(64, 160, 9, 0.753);
+    font-size: larger;
+    text-shadow:2px 2px bisque;
+
+}
+
+/*-------------------------------------------------------------------------------------------*/
+ 
+/*------------------------------responsive portion (starts)----------------------------------*/
+
+@media all and ( min-width:20px) and (max-width:800px){
+    .nav-links{
+        display: flex;
+    justify-content: center;
+    margin-left: -150px;
+    
+    margin-top:-50px ;
+    
+
+    }
+    .slogan{
+       font-size:2.5rem ; 
+       position: fixed;
+       top: 30%;
+       left: 30%;
+       margin-top: -75px;
+       margin-left: -75px;
+       margin-bottom: -650px;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-logo{
+    display: flex;
+    justify-content:left;
+    position: fixed;
+    margin-top: -500px;
+    margin-left: -700px;
+
+    
+    }
+}
+
+@media (orientation:portrait)and (min-width:50px){
+    .nav-logo{
+        display: none;
+    }
+}
+
+
+
+
+
+
+/*------------------------------responsive portion (ends)-------------------------------------*/

@@ -1,0 +1,193 @@
+
+
+/*---------------------------------------------------------------------------------------*/
+
+.nav-links,.ul,.li,.a{
+    display: flex;
+    justify-content: center;
+    margin-right: -1000;
+    
+   
+  }
+
+/*------------------------------------links (start)-------------------------------------------*/
+ 
+a {
+    color: rgb(13, 13, 14);
+    list-style: none;
+    font-size: 1.5rem;
+    
+  }
+
+  a:visited {
+
+    color:rgb(1, 27, 3);
+  }
+
+  a:hover, a:active, a:focus {
+
+    color:forestgreen;
+  }
+/*--------------------------------------links (end)---------------------------------------*/
+
+
+h1{
+    text-align: center;
+    font-size: 2.0rem;
+    
+    
+    
+}
+ /*------------------------------------------------------------------------------------*/
+h2{
+    text-align: center;
+    font-size: 1rem;
+}
+/*------------------------------------------------------------------------------------*/
+h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/*------------------------------------------------------------------------------------*/
+h4{
+    text-align: center;
+    font-size: large;
+}
+/*------------------------------------------------------------------------------------*/
+
+/*-------------------------------------images--------------------------------------------*/
+p{
+    text-align: center;
+}
+
+ul,li{
+    text-align: left;
+}
+
+.ul2{
+    text-align: center;
+}
+
+
+.row {
+    display: flex;
+   justify-content: center;
+    padding-left:0px;
+    padding-right: auto;
+    background-repeat: repeat-x;
+    
+    
+    
+  }
+
+  .space{
+      margin-left: 50px;
+  }
+  .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:100px;
+    padding-right: auto;
+    border: solid green;
+    background-color: yellowgreen;
+    
+    
+    
+  }
+  
+
+  .column{
+   display: flex;
+   justify-content: center;
+  }
+
+  /*-------------------------------------images end--------------------------------------------*/
+
+   /*----------------------------------------button (start)--------------------------------------*/
+  .btn{
+    padding: 0.3px 1px;
+    border: none;
+    border-radius: 10%;
+    background-color: forestgreen;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    font-size: 0.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+    margin-left: 1px;
+    display: flex;
+    justify-content: center;
+    
+}
+/*----------------------------------------buton (end)--------------------------------------*/
+  /*------------------------------------animation-----------------------------------------------*/
+.enlarge {
+    padding: 10px;
+    transition: transform 60s;
+   
+    
+  }
+  
+  .enlarge:hover {
+    transform: scale(.10); 
+  }
+/*--------------------------------------animation end-----------------------------------------*/
+
+/*_----------------------------------------order form_-------------------------------------*/
+  
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 6px; 
+    border: 3px solid  green ; 
+    border-radius: 2px; 
+    box-sizing: border-box; 
+    margin-top: 1px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    
+  }
+  
+  /* Style of the submit button (before click) */
+  input[type=CHECKOUT] {
+    background-color:green;
+    color: white;
+    padding: 6px 4px;
+    border: none;
+    border-radius: 2px;
+    cursor:progress;
+    text-align: center;
+  }
+  
+  /* changes the color of the submit button (after click) */
+  input[type=CHECKOUT]:hover {
+    background-color:yellowgreen;
+  }
+  
+  /* Adds background color and padding to contact form */
+  .container {
+    border-radius: 2px;
+    background-color:white;
+    padding: 2px;
+  }
+  /*----------------------------------- order form ends---------------------------------*/
+ 
+  /*-----------------------------------------footer starts-------------------------------*/
+  footer{
+    background-image: url(../IMAGES/grass2.png);
+    background-repeat:repeat-x;
+    text-align: center ;
+
+}
+
+   /*-----------------------------------------footer ends-------------------------------*/
+
+
+
+
+
+
+
+  
